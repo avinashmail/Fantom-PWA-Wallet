@@ -3,6 +3,7 @@
     "version": "0.1.0",
     "scripts": {
         "serve": "vue-cli-service serve",
+        "start": "vue-cli-service serve",
         "serve:chrome-extension:app": "vue-cli-service serve --mode chrome-extension-development",
         "build": "vue-cli-service build",
         "build:chrome-extension": "npm run build:chrome-extension:app && npm run build:chrome-extension:background-js",
